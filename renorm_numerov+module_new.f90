@@ -31,7 +31,7 @@
       ALLOCATE(FAC(IDFA),AC(IDFA))
       CALL LOGFAC
 
-	write(6,*) 'coucou'
+	write(6,*) 'coucou test2'
       WRITE(6,7000)                                                
  7000 FORMAT(' ***** PROGRAM RENORM NUMEROV METHOD ***** ')     
       OPEN(UNIT=55,FILE='renorm_numerov.dat',STATUS='old')
