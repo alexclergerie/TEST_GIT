@@ -33,6 +33,8 @@
 
 	write(6,*) 'coucou test2'
 	write(6,*) 'coucou je vais faire un commit'
+	write(6,*) 'coucou je vais faire un commit 3'
+	
       WRITE(6,7000)                                                
  7000 FORMAT(' ***** PROGRAM RENORM NUMEROV METHOD ***** ')     
       OPEN(UNIT=55,FILE='renorm_numerov.dat',STATUS='old')
